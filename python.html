@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Python</title>
+    <!-- Підключаємо основний CSS файл -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Підключаємо специфічний CSS для Python -->
+    <link rel="stylesheet" href="css/python.css" />
+  </head>
+  <body>
+    <!-- Меню для Python -->
+    <div class="menu menu-section" id="menu-python">
+      <!-- Модуль 1 -->
+      <div class="module" onclick="toggleSubItems('sub-py1')">
+        Модуль 1. Основи Python
+      </div>
+      <div class="sub-items" id="sub-py1">
+        <div
+          class="sub-item learning"
+          onclick="toggleSubItems('sub-py1-learning')"
+        >
+          Навчання
+        </div>
+        <div class="sub-sub-items" id="sub-py1-learning">
+          <div class="sub-sub-item" onclick="showContent('content-py1-1')">
+            Вступ до Python
+          </div>
+        </div>
+        <div class="sub-item" onclick="showContent('content-py1-materials')">
+          Матеріали
+        </div>
+        <div class="sub-item" onclick="showContent('content-py1-lessons')">
+          Уроки
+        </div>
+        <div class="sub-item" onclick="showContent('content-py1-hw')">ДЗ</div>
+      </div>
+    </div>
+
+    <!-- Контент для Python -->
+    <div class="content-wrapper">
+      <div class="content" id="content-py1-1">
+        <h3>Вступ до Python</h3>
+        <p>Python – це потужна мова програмування для розробки.</p>
+      </div>
+      <div class="content" id="content-py1-materials">
+        <h3>Матеріали</h3>
+        <p>Ресурси для вивчення Python.</p>
+      </div>
+      <div class="content" id="content-py1-lessons">
+        <h3>Уроки</h3>
+        <p>Практичні уроки з Python.</p>
+      </div>
+      <div class="content" id="content-py1-hw">
+        <h3>ДЗ</h3>
+        <p>Завдання для самостійного виконання з Python.</p>
+      </div>
+    </div>
+
+    <!-- Підключаємо JavaScript файл -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>study</title>
+    <!-- Підключаємо основний CSS файл -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Контейнер для динамічного підключення CSS предмету -->
+    <link id="subject-styles" rel="stylesheet" href="css/html-css.css" />
+  </head>
+  <body>
+    <!-- Контейнер для меню (ліва частина сторінки) -->
+    <div class="menu-container">
+      <!-- Випадаючий список для вибору предмету -->
+      <div class="subject-selector">
+        <select id="subject-select" onchange="switchSubject()">
+          <option value="html-css">HTML & CSS</option>
+          <option value="javascript">JavaScript</option>
+          <option value="python">Python</option>
+        </select>
+      </div>
+
+      <!-- Контейнер для меню предмету (буде підвантажуватися динамічно) -->
+      <div id="menu-content"></div>
+    </div>
+
+    <!-- Контейнер для контенту (права частина сторінки) -->
+    <div class="content-container">
+      <!-- Контейнер для всіх блоків контенту (буде підвантажуватися динамічно) -->
+      <div id="content-wrapper" class="content-wrapper"></div>
+    </div>
+
+    <!-- Підключаємо JavaScript файл -->
+    <script src="script.js"></script>
+  </body>
+</html>

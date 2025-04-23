@@ -1,0 +1,302 @@
+/* Стилі для контенту предмету HTML & CSS */
+
+/* Стилі для блоку контенту "Програма модулю" */
+#content1-1 {
+  background-color: #f0f8ff; /* Світло-блакитний фон для виділення */
+  border-left: 4px solid #1e90ff; /* Синя смуга зліва для акценту */
+  padding: 20px; /* Внутрішні відступи */
+}
+
+/* Стилі для заголовків у блоці */
+#content1-1 h3 {
+  font-size: 24px; /* Розмір шрифту для головного заголовка */
+  font-weight: bold; /* Жирний шрифт */
+  color: #333; /* Темно-сірий колір */
+  margin-bottom: 15px; /* Відступ знизу */
+}
+
+#content1-1 h4 {
+  font-size: 18px; /* Розмір шрифту для підзаголовків */
+  font-weight: bold; /* Жирний шрифт */
+  color: #333; /* Темно-сірий колір */
+  margin: 20px 0 10px; /* Відступи зверху та знизу */
+}
+
+/* Стилі для привітання */
+#content1-1 .greeting {
+  font-size: 16px; /* Розмір шрифту */
+  font-weight: bold; /* Жирний шрифт */
+  color: #333; /* Темно-сірий колір */
+  margin-bottom: 10px; /* Відступ знизу */
+}
+
+/* Стилі для параграфів */
+#content1-1 p {
+  font-size: 14px; /* Розмір шрифту */
+  color: #333; /* Темно-сірий колір */
+  line-height: 1.6; /* Висота рядка для кращої читабельності */
+  margin-bottom: 15px; /* Відступ знизу */
+}
+
+/* Стилі для списків */
+#content1-1 ul,
+#content1-1 ol {
+  font-size: 14px; /* Розмір шрифту */
+  color: #333; /* Темно-сірий колір */
+  line-height: 1.6; /* Висота рядка */
+  margin: 10px 0 15px 20px; /* Відступи */
+}
+
+#content1-1 ul li,
+#content1-1 ol li {
+  margin-bottom: 8px; /* Відступ між пунктами списку */
+}
+
+/* Стилі для нумерованого списку */
+#content1-1 ol li strong {
+  color: #e91e63; /* Рожевий колір для виділених слів (наприклад, "Теорія", "Асинхронне") */
+}
+
+/* Стилі для цитати */
+#content1-1 .quote {
+  background-color: #e6f0fa; /* Світло-блакитний фон */
+  border-left: 4px solid #a3c9f7; /* Блакитна смуга зліва */
+  padding: 15px; /* Внутрішні відступи */
+  margin: 15px 0; /* Зовнішні відступи */
+  font-size: 14px; /* Розмір шрифту */
+  color: #333; /* Темно-сірий колір */
+  line-height: 1.6; /* Висота рядка */
+}
+
+/* Стилі для нотатки "Готові?" */
+#content1-1 .note {
+  font-size: 14px; /* Розмір шрифту */
+  color: #e91e63; /* Рожевий колір */
+  font-weight: bold; /* Жирний шрифт */
+  margin-top: 20px; /* Відступ зверху */
+}
+
+/* Стилі для блоку контенту "ВЕБ-технології" */
+#content1-2 {
+  background-color: #f5f5f5; /* Світло-сірий фон */
+  border-left: 4px solid #808080; /* Сіра смуга зліва */
+  padding: 20px; /* Внутрішні відступи */
+}
+
+/* Стилі для заголовків у блоці */
+#content1-2 h3 {
+  font-size: 24px; /* Розмір шрифту для головного заголовка */
+  font-weight: bold; /* Жирний шрифт */
+  color: #333; /* Темно-сірий колір */
+  margin-bottom: 15px; /* Відступ знизу */
+}
+
+#content1-2 h4 {
+  font-size: 18px; /* Розмір шрифту для підзаголовків */
+  font-weight: bold; /* Жирний шрифт */
+  color: #333; /* Темно-сірий колір */
+  margin: 20px 0 10px; /* Відступи зверху та знизу */
+}
+
+#content1-2 h5 {
+  font-size: 16px; /* Розмір шрифту для підзаголовків 5 рівня */
+  font-weight: normal; /* Звичайна вага шрифту */
+  color: #333; /* Темно-сірий колір */
+  margin: 15px 0 10px; /* Відступи зверху та знизу */
+}
+
+/* Стилі для параграфів */
+#content1-2 p {
+  font-size: 14px; /* Розмір шрифту */
+  color: #333; /* Темно-сірий колір */
+  line-height: 1.6; /* Висота рядка для кращої читабельності */
+  margin-bottom: 15px; /* Відступ знизу */
+}
+
+/* Стилі для списків */
+#content1-2 ul {
+  font-size: 14px; /* Розмір шрифту */
+  color: #333; /* Темно-сірий колір */
+  line-height: 1.6; /* Висота рядка */
+  margin: 10px 0 15px 20px; /* Відступи */
+}
+
+#content1-2 ul li {
+  margin-bottom: 8px; /* Відступ між пунктами списку */
+}
+
+#content1-2 ul li strong {
+  font-weight: bold; /* Жирний шрифт для виділених слів (наприклад, "HTML", "CSS") */
+}
+
+/* Стилі для контейнера зображень */
+#content1-2 .image-container {
+  display: flex; /* Використовуємо Flexbox для розташування зображень в ряд */
+  justify-content: space-around; /*Рівномірний розподіл простору між зображеннями */
+  margin: 20px 0; /* Відступи зверху та знизу */
+  padding: auto; /* Внутрішні відступи */
+  background-color: #e6f0fa; /* Світло-блакитний фон */
+  border-radius: 5px; /* Закруглені кути */
+}
+
+#content1-2 .image-container img {
+  max-width: 100%; /*  Обмежуємо ширину зображень */
+  height: auto; /* Зберігаємо пропорції */
+}
+
+/* Стилі для форми */
+#content1-2 form {
+  margin-top: 20px; /* Відступ зверху */
+}
+
+#content1-2 form label {
+  display: block; /* Кожна опція на новому рядку */
+  margin-bottom: 10px; /* Відступ між опціями */
+  font-size: 14px; /* Розмір шрифту */
+  color: #333; /* Темно-сірий колір */
+}
+
+#content1-2 form input[type="radio"] {
+  margin-right: 10px; /* Відступ між радіокнопкою та текстом */
+}
+
+/* Стилі для решти блоків контенту */
+#content1-3 {
+  background-color: #fff5ee; /* Світло-персиковий фон */
+  border-left: 4px solid #ff6347; /* Коралова смуга зліва */
+}
+
+#content1-4 {
+  background-color: #f0fff0; /* Світло-зелений фон */
+  border-left: 4px solid #32cd32; /* Зелена смуга зліва */
+}
+
+#content1-5 {
+  background-color: #f5f5dc; /* Світло-бежевий фон */
+  border-left: 4px solid #daa520; /* Золота смуга зліва */
+}
+
+#content1-6 {
+  background-color: #e6e6fa; /* Світло-лавандовий фон */
+  border-left: 4px solid #9370db; /* Фіолетова смуга зліва */
+}
+
+#content1-7 {
+  background-color: #fff0f5; /* Світло-рожевий фон */
+  border-left: 4px solid #ff69b4; /* Рожева смуга зліва */
+}
+
+#content1-materials {
+  background-color: #f0f0f0; /* Світло-сірий фон */
+  font-style: italic; /* Курсив для тексту */
+}
+
+#content1-lessons {
+  background-color: #e0ffff; /* Світло-бірюзовий фон */
+  font-weight: bold; /* Жирний шрифт для акценту */
+}
+
+#content1-hw {
+  background-color: #ffe4e1; /* Світло-рожевий фон */
+  border: 2px dashed #ff4500; /* Пунктирна помаранчева межа */
+}
+
+#content2-1 {
+  background-color: #f5f5f5; /* Світло-сірий фон */
+  border-left: 4px solid #4682b4; /* Сталево-синя смуга зліва */
+}
+
+#content2-materials {
+  background-color: #f0f0f0; /* Світло-сірий фон */
+  font-style: italic; /* Курсив для тексту */
+}
+
+#content2-lessons {
+  background-color: #e0ffff; /* Світло-бірюзовий фон */
+  font-weight: bold; /* Жирний шрифт для акценту */
+}
+
+#content2-hw {
+  background-color: #ffe4e1; /* Світло-рожевий фон */
+  border: 2px dashed #ff4500; /* Пунктирна помаранчева межа */
+}
+
+#content3-1 {
+  background-color: #f0f8ff; /* Світло-блакитний фон */
+  border-left: 4px solid #1e90ff; /* Синя смуга зліва */
+}
+
+#content3-materials {
+  background-color: #f0f0f0; /* Світло-сірий фон */
+  font-style: italic; /* Курсив для тексту */
+}
+
+#content3-lessons {
+  background-color: #e0ffff; /* Світло-бірюзовий фон */
+  font-weight: bold; /* Жирний шрифт для акценту */
+}
+
+#content3-hw {
+  background-color: #ffe4e1; /* Світло-рожевий фон */
+  border: 2px dashed #ff4500; /* Пунктирна помаранчева межа */
+}
+
+#content4-1 {
+  background-color: #fff5ee; /* Світло-персиковий фон */
+  border-left: 4px solid #ff6347; /* Коралова смуга зліва */
+}
+
+#content4-materials {
+  background-color: #f0f0f0; /* Світло-сірий фон */
+  font-style: italic; /* Курсив для тексту */
+}
+
+#content4-lessons {
+  background-color: #e0ffff; /* Світло-бірюзовий фон */
+  font-weight: bold; /* Жирний шрифт для акценту */
+}
+
+#content4-hw {
+  background-color: #ffe4e1; /* Світло-рожевий фон */
+  border: 2px dashed #ff4500; /* Пунктирна помаранчева межа */
+}
+
+#content5-1 {
+  background-color: #f0fff0; /* Світло-зелений фон */
+  border-left: 4px solid #32cd32; /* Зелена смуга зліва */
+}
+
+#content5-materials {
+  background-color: #f0f0f0; /* Світло-сірий фон */
+  font-style: italic; /* Курсив для тексту */
+}
+
+#content5-lessons {
+  background-color: #e0ffff; /* Світло-бірюзовий фон */
+  font-weight: bold; /* Жирний шрифт для акценту */
+}
+
+#content5-hw {
+  background-color: #ffe4e1; /* Світло-рожевий фон */
+  border: 2px dashed #ff4500; /* Пунктирна помаранчева межа */
+}
+
+#content6-1 {
+  background-color: #e6e6fa; /* Світло-лавандовий фон */
+  border-left: 4px solid #9370db; /* Фіолетова смуга зліва */
+}
+
+#content6-materials {
+  background-color: #f0f0f0; /* Світло-сірий фон */
+  font-style: italic; /* Курсив для тексту */
+}
+
+#content6-lessons {
+  background-color: #e0ffff; /* Світло-бірюзовий фон */
+  font-weight: bold; /* Жирний шрифт для акценту */
+}
+
+#content6-hw {
+  background-color: #ffe4e1; /* Світло-рожевий фон */
+  border: 2px dashed #ff4500; /* Пунктирна помаранчева межа */
+}
