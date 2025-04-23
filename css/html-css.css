@@ -1,5 +1,12 @@
 /* Стилі для контенту предмету HTML & CSS */
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin-left: auto;
+  margin-right: auto;
+}
 /* Стилі для блоку контенту "Програма модулю" */
 #content1-1 {
   background-color: #f0f8ff; /* Світло-блакитний фон для виділення */
@@ -132,7 +139,8 @@
 /* Стилі для контейнера зображень */
 #content1-2 .image-container {
   display: flex; /* Використовуємо Flexbox для розташування зображень в ряд */
-  justify-content: space-around; /*Рівномірний розподіл простору між зображеннями */
+  justify-content: center; /*Рівномірний розподіл простору між зображеннями */
+  align-items: center;
   margin: 20px 0; /* Відступи зверху та знизу */
   padding: auto; /* Внутрішні відступи */
   background-color: #e6f0fa; /* Світло-блакитний фон */
